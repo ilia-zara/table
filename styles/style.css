@@ -1,0 +1,90 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th{
+    background-color: tomato;
+}
+
+table tr:nth-child(even){
+    background-color: rgb(128, 80, 80);
+}
+
+table tr:nth-child(odd){
+    background-color: rgb(70, 68, 68);
+}
+
+caption{
+    font-size: xx-large;
+    color: blue;
+}
+
+.numb{
+    text-align: center;
+}
+
+th {
+    border: 5px inset rgb(54, 24, 224);
+    padding-left: 10px;
+    font-family: cursive;
+    font-size: x-large;
+}
+
+td {
+    border: 5px outset rgb(22, 194, 224);
+    border-top: none;
+    padding-left: 10px;
+    color: rgb(3, 151, 35);
+}
+
+tbody td p{
+    text-align: right;
+}
+
+.border-left{
+    border-left: 7px outset tomato;
+}
+
+.border-bottom{
+    border-bottom: 7px outset tomato;
+}
+
+.border-right{
+    border-right: 7px outset tomato;
+}
+
+.main{
+    background-color: rgb(30, 255, 0);
+    border: 10px double rgb(255, 0, 0);
+    font-family: Italic;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+    color:rgb(255, 0, 0) ;
+}
+
+#number{
+    width: 70%;
+    margin: auto;
+}
+
+#number, #number th{
+    border: 3px dotted yellow;
+    color: rgb(16, 240, 240);
+}
+
+#number td{
+    border: 3px dotted yellow;
+    color: violet;
+}
+
+#number>caption{
+    color: rgb(236, 240, 1);
+}
+
+.pic{
+    text-align: center;
+}
+
+

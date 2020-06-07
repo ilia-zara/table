@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Table</title>
+</head>
+
+<body>
+    <table>
+        <caption>Список работников</caption>
+        <thead>
+            <tr>
+                <th>№</th>
+                <th colspan="3">Ф.И.О.</th>
+                <th>Должность</th>
+                <th>Телефон</th>
+                <th>Адрес</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="numb">1</td>
+                <td class="border-left">Иванов</td>
+                <td>Иван</td>
+                <td class="border-right">Иванович</td>
+                <td>Менеджер</td>
+                <td>123456</td>
+                <td>ул.Советская 1</td>
+            </tr>
+            <tr>
+                <td class="numb">2</td>
+                <td class="border-left">Петров</td>
+                <td>Петр</td>
+                <td class="border-right">Петрович</td>
+                <td>Водитель</td>
+                <td>678901</td>
+                <td>
+                    <p>Без определённого места жительства</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="numb">3</td>
+                <td class="border-left border-bottom">Смирнов</td>
+                <td class="border-bottom">Сергей</td>
+                <td class="border-bottom border-right">Сергеевич</td>
+                <td class="main">
+                    <div>
+                        <ul>
+                            <li>Директор</li>
+                            <li>Зам.директор</li>
+                            <li>Уборщик</li>
+                        </ul>
+                    </div>
+                </td>
+                <td>
+                    <table id="number">
+                        <caption>Номера</caption>
+                        <tr>
+                            <th>MTS</th>
+                            <th>Velcom</th>
+                        </tr>
+                        <tr>
+                            <td>12412412412</td>
+                            <td>4747474565463</td>
+                        </tr>
+                        <tr>
+                            <td>242534635</td>
+                            <td>34345345435</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="pic">
+                    <img src="https://i.picsum.photos/id/220/200/200.jpg" alt="my adress">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
